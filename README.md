@@ -1,8 +1,14 @@
 # aic8800dc
 
 Project forked from https://github.com/shenmintao/aic8800dc
+
+
 Changed to support the Mercusys AX300 model 
+
+
 lsusb 
+
+
 0x2c4e:0114 MERCUSYS aic8800DC
 
 Tested on Linux kernel 6.14 with Ubuntu.
