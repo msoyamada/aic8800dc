@@ -18,6 +18,8 @@
 #define USB_VENDOR_ID_AIC                0xA69C
 #define USB_VENDOR_ID_AIC_V2             0x368B
 #define USB_VENDOR_ID_TENDA              0x2604
+#define USB_VENDOR_ID_MERCUSYS            0x2c4e
+
 
 #ifndef CONFIG_USB_BT
 #define USB_PRODUCT_ID_AIC8800               0x8800
@@ -29,6 +31,8 @@
 #define USB_PRODUCT_ID_AIC8800FC            0x88df
 #define USB_PRODUCT_ID_TENDA                0x0013
 #define USB_PRODUCT_ID_TENDA_U2             0x0014
+#define USB_PRODUCT_ID_MERCUSYS             0x0114
+
 #endif
 
 enum AICWF_IC{
