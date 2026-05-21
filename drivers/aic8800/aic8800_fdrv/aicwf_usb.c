@@ -2052,10 +2052,8 @@ static int aicwf_usb_chipmatch(struct aic_usb_dev *usb_dev, u16_l vid, u16_l pid
 */
 
 	}else if(pid == USB_PRODUCT_ID_AIC8800DW || pid == USB_PRODUCT_ID_TENDA
-	 || pid == USB_PRODUCT_ID_TENDA_U2 || pid == USB_PRODUCT_ID_AIC8800FC  ||
-     || (vid == USB_VENDOR_ID_MERCUSYS && pid == USB_PRODUCT_ID_MERCUSYS)
-    
-    ){
+	 || pid == USB_PRODUCT_ID_TENDA_U2 || pid == USB_PRODUCT_ID_AIC8800FC  
+     || (vid == USB_VENDOR_ID_MERCUSYS && pid == USB_PRODUCT_ID_MERCUSYS)){
         usb_dev->chipid = PRODUCT_ID_AIC8800DW;
 		AICWFDBG(LOGINFO, "%s USE AIC8800DW\r\n", __func__);
         return 0;
