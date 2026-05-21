@@ -11,7 +11,7 @@ lsusb
 
 0x2c4e:0114 MERCUSYS aic8800DC
 
-Tested on Linux kernel 6.14 with Ubuntu.
+Tested on Linux kernel 6.18 with Ubuntu.
 
 ### Attention
 Before installing the driver, delete all aic8800-related folders under /lib/firmware. Using an incorrect firmware version may cause the system to freeze.
